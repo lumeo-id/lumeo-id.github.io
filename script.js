@@ -5,7 +5,7 @@ $(function () {
 
         console.log("hey");
 
-        $header.toggleClass('scrolled', $(this).scrollTop() > $header.height() + 18);
-        $logo.toggleClass('scrolled', $(this).scrollTop() > $header.height() + 18);
+        $header.toggleClass('scrolled', $(this).scrollTop() > $header.height());
+        $logo.toggleClass('scrolled', $(this).scrollTop() > $header.height());
     });
 });
