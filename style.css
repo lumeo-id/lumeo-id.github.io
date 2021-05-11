@@ -1,0 +1,331 @@
+/* MULTI-USE */
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-opensans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-14{
+    font-size: 14px;
+}
+
+.font-20{
+    font-size: 20px;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.flex-one{
+    flex: 1;
+}
+
+.text-center{
+    text-align: center
+}
+
+.btn{
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    padding: 6px 18px;
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+.btn-dark{
+    background-color: #262626;
+    color: white;
+}
+
+.btn-dark:hover{
+    background-color: #404040;
+}
+
+/* HTML ELEMENTS */
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    color: #262626;
+    background-color: rgb(250, 250, 250);
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding: 8px;
+    z-index: 1;
+    background-color: #FFD80D;
+    transition: 0.5s;
+}
+
+h1, h2, h3, h4, h5, h6, button{
+    font-family: 'Poppins', sans-serif;
+    margin: 4px 0;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+}
+
+/* CUSTOM */
+header.scrolled{
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+    background-color: #353535;
+}
+
+#header-logo{
+    width: 5%;
+    min-width: 52px;
+    filter: brightness(0);
+}
+
+#header-logo.scrolled{
+    filter: brightness(1);
+}
+
+.content{
+    margin: 2% 6%;
+}
+
+#cover{
+    background-color: #FFD80D;
+    padding: 2% 6%;
+}
+
+#cover-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cover-container img{
+    width: 30%;
+    margin-right: 10%;
+}
+
+.cover-text{
+    width: 40%;
+}
+
+#cover-title{
+    font-family: 'Poppins', sans-serif;;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#cover-telusuri{
+    cursor: pointer;
+}
+
+#cover-telusuri a{
+    text-decoration: none;
+    color: #262626;
+}
+
+#telusuri-link:hover{
+    color: #404040;
+}
+
+.section-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sub-section-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#tentang-kami{
+    display: flex;
+    padding: 24px 32px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    background-color: white;
+}
+
+#tentang-kami img{
+    align-self: center;
+    max-width: 20%;
+    margin-left: 4%;
+}
+
+.small-line{
+    width: 28px;
+    height: 4px;
+    background-color: #FFD80D;
+}
+
+.card{
+    padding: 24px 32px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    margin: 0 10px;
+    background-color: white;
+}
+
+#alasan-container{
+    display: flex;
+}
+
+#alasan .card img{
+    width: 100px;
+    margin-bottom: 14px;
+}
+
+#penawaran{
+    bottom: 0;
+    background-color: #353535;
+    color: white;
+    border: 1px solid #353535;
+    background-color: #353535;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%233e3e3e' stroke-width='4.9' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+#penawaran-container{
+    display: flex;
+    align-items: center;
+}
+
+#penawaran-contact i{
+    margin-right: 5px;
+}
+
+#penawaran-contact a{
+    color: rgb(158, 158, 255);
+    text-decoration: none;
+}
+
+#penawaran-contact a:hover{
+    text-decoration: underline;
+}
+
+.contact{
+    margin-top: -20px;
+    font-size: 18px;
+}
+
+.yellow-rect{
+    position: relative;
+    top: 16px;
+    left: 20px;
+    height: 32px;
+    width: 260px;
+    background-color: #FFD80D;
+}
+
+#discount-img{
+    max-width: 15%;
+    margin-left: 10%;
+}
+
+#kuota-harian{
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 12px;
+    margin-right: 8px;
+    width: 60%;
+}
+
+#progress-kuota-harian{
+    background-color: #FFD80D;
+    width: 60%;
+    height: 16px;
+    margin: 4px;
+    border-radius: 12px;
+}
+
+#ulasan img{
+    width: 250px;
+    margin: 2px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 800px) {
+    .btn{
+        font-size: 14px;
+    }
+
+    #cover-container{
+        display: block;
+        text-align: center;
+    }
+
+    #cover-container img{
+        min-width: 50%;
+        margin-right: 10%;
+    }
+
+    .cover-text{
+        width: 100%;
+    }
+
+    #cover-title{
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .section-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .sub-section-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #tentang-kami{
+        display: block;
+    }
+
+    #tentang-kami img{
+        max-width: 120px;
+    }
+
+    #alasan-container{
+        display: block;
+    }
+
+    #alasan .card img{
+        width: 60px;
+    }
+
+    #alasan .card{
+        margin-bottom: 14px;
+    }
+
+    .yellow-rect{
+        position: relative;
+        top: 16px;
+        left: 24px;
+        height: 28px;
+        width: 240px;
+        background-color: #FFD80D;
+    }
+
+    #penawaran-container{
+        display: block;
+    }
+
+    #discount-img{
+        display: none;
+    }
+
+    #kuota-harian{
+        width: 70%;
+    }
+}

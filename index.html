@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>LUMEO</title>
+</head>
+<body>
+    <header>
+        <!-- <img id="header-logo" src="./images/header-logo-light.png" alt=""> -->
+        <img id="header-logo" src="./images/logo-light.svg" alt="" width="20" height="20">
+    </header>
+
+    <div id="cover">
+        <div id="cover-container">
+            <img src="./images/dl1.png" alt="Lumeo's desk lamp">
+            <div class="cover-text">
+                <div id="cover-title">Boost Your Productivity.</div>
+                <p class="font-opensans">Lumeo menyediakan peralatan kantor yang akan menemanimu bekerja dan meningkatkan produktivitasmu.</p>
+                <a href="#penawaran"><button class="btn btn-dark">Pesan sekarang!</button></a>
+            </div>
+        </div>
+        <br>
+        <div id="cover-telusuri" class="font-14 text-center">
+            <a href="#tentang-kami">Telusuri lebih lanjut</a>
+            <br>
+            <a href="#tentang-kami"><i class="fa fa-angle-double-down"></i></a>
+        </div>
+    </div>
+
+    <div class="content">
+        <section id="tentang-kami">
+            <div class="">
+                <div class="section-title">Tentang Kami</div>
+                <div class="small-line"></div>
+                <p>
+                    Lumeo adalah penyedia kebutuhan peralatan meja rumah
+                    ataupun kantor yang didirikan pada tahun 2021. Kami berkomitmen
+                    untuk memberikan kenyamanan kepada kamu dalam
+                    produktivitas keseharian di meja kerjamu. Kami percaya
+                    dengan penataan meja kerja yang baik akan tercipta
+                    produktivitas lebih tinggi bagi yang menggunakannya.
+                </p>
+            </div>
+            <img src="./images/lumin.png" alt="" >
+        </section>
+
+        <br><br>
+
+        <section id="alasan">
+            <div class="section-title text-center">Mengapa pilih kami?</div>
+            <br><br>
+            <div id="alasan-container">
+                <div class="card text-center flex-one">
+                    <img src="./images/checklist.png" alt="">
+                    <div class="sub-section-title">KUALITAS TERJAMIN</div>
+                    <p>
+                        Untuk masalah kualitas, kamu tidak perlu khawatir karena kami hanya menjual
+                        produk-produk berkualitas tinggi.
+                    </p>
+                </div>
+                <div class="card text-center flex-one">
+                    <img src="./images/check-mark.png" alt="">
+                    <div class="sub-section-title">GARANSI 2 BULAN</div>
+                    <p>
+                        Agar kamu merasa aman, kami menawarkan garansi ganti baru pada barang yang rusak
+                        selama pembelian barang masih di bawah 2 bulan.
+                    </p>
+                </div>
+                <div class="card text-center flex-one">
+                    <img src="./images/tie.png" alt="">
+                    <div class="sub-section-title">DESAIN ELEGAN</div>
+                    <p>
+                        Tidak hanya fungsional, produk-produk kami juga memiliki desain yang elegan
+                        sehingga mampu memperindah meja kerjamu.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <br><br>
+    </div>
+
+    <div class="yellow-rect"></div>
+    <section id="penawaran">
+        <br>
+        <div class="content">
+            <div class="section-title">PENAWARAN TERBATAS!</div>
+            <div id="penawaran-container">
+                <div id="discount-left">
+                    <p>
+                        Dapatkan potongan harga sebesar <b>50%</b> untuk seluruh produk
+                        (selama kuota masih tersedia).
+                    </p>
+                    <p>* Sudah termasuk garansi 2 bulan.</p>
+                    <p>
+                        <b>KUOTA TERBATAS</b>
+                        <br>
+                        (Hanya untuk <b>5</b> orang per hari)
+                    </p>
+                    Kuota harian:
+                    <div class="display-flex">
+                        <div id="kuota-harian">
+                            <div id="progress-kuota-harian">
+                                
+                            </div>
+                        </div>
+                        <div class="font-opensans">
+                            <b>3</b> dari <b>5</b>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="penawaran-contact">
+                        <div class="sub-section-title">Pemesanan dapat dilakukan lewat:</div>
+                        <br>
+                        <div class="contact">
+                            <i class="fab fa-whatsapp"></i> (+62) 812 3456 7890 
+                            (atau <a href="">klik disini</a>)
+                        </div>
+                        
+                    </div>
+                </div>
+                <img id="discount-img" src="./images/discount.png" alt="">
+            </div>
+            <br>
+        </div>
+    </section>
+    <br>
+    <div class="content">
+        <section id="ulasan">
+            <div class="section-title text-center">Ulasan Pembeli</div>
+            <br>
+            <div class="ulasan-img-container text-center">
+                <img src="./images/review-1.jpeg" alt="Review Tokopedia">
+                <img src="./images/review-2.jpeg" alt="Review Tokopedia">
+                <img src="./images/review-3.jpeg" alt="Review Tokopedia">
+                <img src="./images/review-4.jpeg" alt="Review Tokopedia">
+                <img src="./images/review-5.jpeg" alt="Review Tokopedia">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
