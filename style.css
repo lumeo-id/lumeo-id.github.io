@@ -364,3 +364,9 @@ header.scrolled{
         font-size: 16px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    #floating-btn{
+        font-size: 12px;
+    }
+}
