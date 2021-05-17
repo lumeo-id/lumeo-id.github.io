@@ -11,6 +11,10 @@
     font-size: 14px;
 }
 
+.font-18{
+    font-size: 18px;
+}
+
 .font-20{
     font-size: 20px;
 }
@@ -25,6 +29,10 @@
 
 .text-center{
     text-align: center
+}
+
+.text-right{
+    text-align: right;
 }
 
 .btn{
@@ -91,6 +99,24 @@ header.scrolled{
 
 #header-logo.scrolled{
     filter: brightness(1);
+}
+
+#floating-btn{
+    position: fixed;
+    bottom: 28px;
+    right: 0;
+    z-index: 1;
+    padding: 6px 16px;
+    border-radius: 20px 0 0 20px;
+    font-size: 20px;
+    background-color: #262626;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#floating-btn:hover{
+    background-color: #404040;
 }
 
 .content{
@@ -227,8 +253,7 @@ header.scrolled{
 }
 
 #discount-img{
-    max-width: 15%;
-    margin-left: 10%;
+    max-width: 40%;
 }
 
 #kuota-harian{
@@ -327,5 +352,9 @@ header.scrolled{
 
     #kuota-harian{
         width: 70%;
+    }
+
+    .contact{
+        font-size: 16px;
     }
 }
