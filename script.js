@@ -14,7 +14,7 @@ $(function () {
 
 const navSlide = () => {
     const burger = document.querySelector('.burger');
-    const burgerBar = document.querySelector(".burger div");
+    const burgerBar = document.querySelectorAll(".burger div");
     const nav = document.querySelector("nav");
     const navLogo = document.querySelector("#nav-logo");
     const navLinks = document.querySelector('.nav-links');
@@ -23,7 +23,9 @@ const navSlide = () => {
     burger.addEventListener('click', () => {
         navLinks.classList.toggle('nav-active');
         nav.classList.toggle('scrolled');
-        burgerBar.classList.toggle('scrolled');
+        for (var i = 0, len = burgerBar.length; i < len; i++) {
+            burgerBar[i].classList.toggle('scrolled');
+        }
         navLogo.classList.toggle('scrolled');
     });
 
