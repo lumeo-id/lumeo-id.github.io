@@ -22,11 +22,14 @@ const navSlide = () => {
 
     burger.addEventListener('click', () => {
         navLinks.classList.toggle('nav-active');
-        nav.classList.toggle('scrolled');
-        for (var i = 0, len = burgerBar.length; i < len; i++) {
-            burgerBar[i].classList.toggle('scrolled');
+
+        if (!nav.classList.contains('scrolled')) {
+            nav.classList.toggle('scrolled');
+            navLogo.classList.toggle('scrolled');
+            for (var i = 0, len = burgerBar.length; i < len; i++) {
+                burgerBar[i].classList.toggle('scrolled');
+            }
         }
-        navLogo.classList.toggle('scrolled');
     });
 
     navList.forEach((link, index) => {
