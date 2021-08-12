@@ -1,22 +1,24 @@
 $(function () {
     $(document).scroll(function () {
-        var $nav = $("nav");
-        var $navLogo = $("#nav-logo");
-        var $navLinks = $("nav a");
-        var $burger = $(".burger div");
+        var $nav = $('nav');
+        var $navLogo = $('#nav-logo');
+        var $navLinks = $('nav a');
+        var $burger = $('.burger div');
+        var $floatingBtn = $('#floating-btn');
 
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
         $navLogo.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
         $navLinks.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
         $burger.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        $floatingBtn.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 });
 
 const navSlide = () => {
     const burger = document.querySelector('.burger');
-    const burgerBar = document.querySelectorAll(".burger div");
-    const nav = document.querySelector("nav");
-    const navLogo = document.querySelector("#nav-logo");
+    const burgerBar = document.querySelectorAll('.burger div');
+    const nav = document.querySelector('nav');
+    const navLogo = document.querySelector('#nav-logo');
     const navLinks = document.querySelector('.nav-links');
     const navList = document.querySelectorAll('.nav-links li');
 
