@@ -85,6 +85,7 @@ nav {
     list-style: none;
     width: 25%;
     font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 
 .nav-links a {
@@ -432,7 +433,7 @@ nav a.scrolled:hover {
         right: 0px;
         width: 100%;
         height: 30vh;
-        top: 6vh;
+        top: 48px;
         margin: 0px;
         display: flex;
         flex-direction: column;
