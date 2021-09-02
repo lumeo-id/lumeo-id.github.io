@@ -473,6 +473,15 @@ nav a.scrolled:hover {
         flex-direction: column;
     }
 
+    #penawaran-container span {
+        font-size: 32px;
+    }
+
+    #penawaran-container img {
+        margin-top: 12px;
+        width: 60%;
+    }
+
     #discount-img{
         display: none;
     }
