@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /* MULTI-USE */
 .font-poppins{
     font-family: 'Poppins', sans-serif;
@@ -245,7 +249,8 @@ nav a.scrolled:hover {
 .section-title{
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
-    font-weight: bold;
+    font-weight: 500;
+    color: #5EFBCC;
 }
 
 .sub-section-title{
@@ -295,21 +300,46 @@ nav a.scrolled:hover {
     margin-bottom: 14px;
 }
 
-#penawaran{
+/* #penawaran{
     bottom: 0;
     background-color: #353535;
     color: white;
     border: 1px solid #353535;
     background-color: #353535;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%233e3e3e' stroke-width='4.9' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
-}
+} */
 
-#penawaran-container{
+#penawaran-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-#penawaran-contact i{
+#penawaran-container img {
+    width: 40%;
+}
+
+#penawaran-container ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+#penawaran-container li {
+    text-transform: uppercase;
+}
+
+#penawaran-container span {
+    display: block;
+    font-weight: bold;
+    font-size: 64px;
+    color: #5EFBCC;
+    padding: 12px;
+}
+
+/* #penawaran-contact i{
     margin-right: 5px;
 }
 
@@ -320,7 +350,7 @@ nav a.scrolled:hover {
 
 #penawaran-contact a:hover{
     text-decoration: underline;
-}
+} */
 
 .contact{
     margin-top: -20px;
@@ -398,7 +428,6 @@ nav a.scrolled:hover {
     .section-title{
         font-family: 'Poppins', sans-serif;
         font-size: 24px;
-        font-weight: bold;
     }
     
     .sub-section-title{
@@ -436,8 +465,12 @@ nav a.scrolled:hover {
         background-color: #202020;
     }
 
-    #penawaran-container{
+    /* #penawaran-container{
         display: block;
+    } */
+
+    #penawaran-container {
+        flex-direction: column;
     }
 
     #discount-img{
